@@ -1,0 +1,11 @@
+void main() {
+  int edad1 = 12;
+  int edad2 = edad1++;
+  
+  /** edad1= 13 y edad2=12 */
+  
+  int edad1 = 12;
+  int edad2 = ++edad1;
+  
+   /** edad1= 13 y edad2=13 */
+}
