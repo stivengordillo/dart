@@ -1,0 +1,15 @@
+void main() {
+  /** var palabra reservada para que el programa sepa el tipo de dato que se esta usando" */
+  /** Asigna el tipo de dato de la primera asignación */
+  
+  var nombre = "Stiven Gordillo Ruiz";
+  print(nombre);
+  
+  /**Final y const cuando se asigna el valor a la variable este no puede cambiar */
+  /** const debe tener el valor en el momento de la compilación y final no */
+  
+  const apellido = "Gordillo Ruiz";
+  print("apellido");
+  
+  /** Dynamic no se usa mucho porque desordena el código y permite cambiar o redefinir el tipo de dato y el valor */
+}
