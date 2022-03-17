@@ -1,0 +1,13 @@
+void main() {
+  //Convertir un String a un numero 
+  String texto = "101";
+  String textoDecimal = "101.52";
+  int numero = int.parse(texto);
+  double decimal = double.parse(textoDecimal);
+  print(numero+50);
+  print(decimal+10);
+  
+  //Convertir a texto
+  int age=24;
+  String pasarTexto = age.toString();
+}
