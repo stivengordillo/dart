@@ -1,0 +1,25 @@
+void main() {
+  /** Variables booleanas */
+  
+  bool estaSoleado = true;
+  print(estaSoleado);
+  
+  /** Varianles numericas numeros enteros int y decimales double */
+  
+  int edad = 20;
+  double altura = 1.68;
+  print(edad);
+  print(altura);
+  
+  /** Varianles tipo String */
+  
+  String nombre = 'Stiven Gordillo Ruiz';
+  print('Nombre del Man ' + nombre);
+  
+   /** Varianles tipo Lista */
+  
+  List <String> familia = ["Gordillo","Herrera"];
+  print(familia);
+  print(familia[0]);
+  
+}
