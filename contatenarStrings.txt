@@ -1,0 +1,19 @@
+void main() {
+  //Conacatenar $
+  //Interpolación $
+  String nombre = "Stiven";
+  String pais = "Colombia";
+
+  String concatenar = "Soy " + nombre + " y vivo en " + pais;
+  print(concatenar);
+  
+  String interpolar = "Soy \"$nombre\" \ny vivo en $pais";
+  print(interpolar);
+  
+  //Funciones o acciones que se le puede realizar a un obejeto
+  
+  String mayusculas = nombre.toUpperCase();
+  String minusculas = pais.toLowerCase();
+  String cambiarPais = pais.replaceAll("Colombia", "Perú");
+  print("$mayusculas $minusculas $cambiarPais");
+}
