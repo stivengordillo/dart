@@ -1,0 +1,33 @@
+void main() {
+  //Operaciones aritmeticas
+  int num1 = 7;
+  int num2 = 51;
+  int suma = num1 + num2;
+  int resta = num2 - num1;
+  int multiplicar = num1 * num2;
+  double dividir = num1 / num2;
+    //Resultado entero de una división ~/
+  int resultadoEntero = num2 ~/ num1;
+    //Residuo entero de una división %
+  int resultadoResiduo = num2 % num1;
+  print(resultadoResiduo);
+  
+  //Operaciones de asignación
+  
+  int val1 = 8;
+  int val2 = 2;
+  print("$val1 += $val2");
+  val1 += val2;
+  print(val1);
+  
+  //Operaciones Relacionales
+  
+  String cadena ="Hola";
+  String adios = "Holas";
+  
+  bool resultado = cadena != adios;
+  print("$cadena == $adios = $resultado");
+  
+  //operaciones lógicas
+  
+}

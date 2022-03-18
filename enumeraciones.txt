@@ -1,0 +1,6 @@
+void main() {
+  Tiempo tiempo = Tiempo.soleado;
+  print(tiempo);
+  
+}
+enum Tiempo{soleado,lluvioso,despejado}
