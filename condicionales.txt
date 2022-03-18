@@ -1,0 +1,20 @@
+void main() {
+  int mascotas = 10;
+  if(mascotas == 0){
+    print("no tienes mascotas");
+  }else{
+    print("tienes $mascotas mascota");
+  }
+  
+  switch(mascotas){
+    case 0:
+      print("no hay mádscotas en el switch");
+      break;
+    case 1:
+      print("tienes $mascotas mascota en el switch");
+      break;
+    default:
+      print("Hay muchas mascotas");
+      
+  }
+}
