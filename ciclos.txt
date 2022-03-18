@@ -1,0 +1,20 @@
+void main() {
+  int tasasDeCafe = 0;
+  int maximo = 3;
+  List <String> tipos = ["Descafeinado", "Late", "Tostado", "Con aRequipe"];
+  while(tasasDeCafe < maximo){
+    tasasDeCafe++;
+    print("Tazas de cafe = $tasasDeCafe");
+  }
+  
+  do{
+    tasasDeCafe++;
+    print("Tazas de cafe en DO = $tasasDeCafe");
+  }
+  while(tasasDeCafe < maximo);
+  
+  for (int i=0; i<=maximo; i++){
+    String tipoDeCafe = tipos[i];
+    print("taza de cafe sabor $tipoDeCafe");
+  }
+}
