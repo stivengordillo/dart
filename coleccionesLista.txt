@@ -1,0 +1,29 @@
+void main() {
+  List <String> amigos = ["Felipe", "Edwin", "Andres"];
+  //Valida si la lista esta vacia
+  print (amigos.isEmpty);
+  
+  //Cantida de elementos que tiene la lista
+  print(amigos.length);
+  
+  //Agregar nuevos elementos a la lista
+  amigos.add("camilo");
+  print(amigos.length);
+  
+  for (int i=0; i<= amigos.length-1; i++){
+    print("amigo $i : ${amigos[i]}");
+  }
+  
+  //Remueve un elemento de la lista
+  amigos.remove("Edwin");
+  print(amigos);
+  
+  //Insertar un elemento en una posicion en especifico
+  
+  amigos.insert(1,"filipondio");
+  print(amigos);
+  
+  //Limpiar por completo la lista
+  amigos.clear();
+  print(amigos);
+}
