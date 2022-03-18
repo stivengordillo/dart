@@ -1,0 +1,15 @@
+void main() {
+  //No se pueden asignar valores repetidos first, isEmpty ,isNotEmpty, last, reverse
+  //Se usa contains para validar si un dato existe en el set
+  Set <String> paises = {"Colombia", "Peru", "Chile", "Ecuador"};
+  print(paises);
+  
+  paises.add("venezuela");
+  print(paises);
+  
+  for(int i=0; i<paises.length; i++){
+    print(paises.elementAt(i));
+  }
+  
+  print(paises.contains("Nicaragua"));
+}
