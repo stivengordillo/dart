@@ -1,0 +1,36 @@
+void main() {
+ Map <String,dynamic> persona = {
+   "nombre": "Stiven",
+   "edad": 37,
+   "nacionalidad": "Col"
+ };
+ print(persona.keys);
+ print(persona.values);
+ print(persona["nombre"]);
+  // Retorna null
+ print(persona["pepito"]);
+  
+  // numero de elemntos que contiene map
+ int numero = persona.length;
+ print(numero); 
+ 
+  // Agrega elementos al MAP add All
+ 
+ persona.addAll({'ciudad':'Bogotá', 'email':'stiven@stivengordillo.com'});
+ print(persona.values);
+  
+  // Clear elimina todos los elementos del map
+  persona.clear();
+  print(persona.values);
+  persona.addAll({'ciudad':'Bogotá', 'email':'stiven@stivengordillo.com'});
+  
+  // Elimina un elemnto del MAP
+  print(persona.keys);
+  persona.remove("ciudad");
+  print(persona.keys);
+  persona.addAll({'ciudad':'Bogotá', 'email':'stiven@stivengordillo.com'});
+  
+  //Recorre y retorna cada uno de los elemntos del MAP
+  persona.forEach((k,v) => print('${k}: ${v}'));
+  
+}
